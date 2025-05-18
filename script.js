@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const introductionText = document.getElementById('introduction-text');
 
     if (!anyoneLink || !recruitersLink || !instructorsLink || !introductionText) {
-        console.error("Un ou plusieurs éléments sont introuvables. Vérifiez les IDs dans votre HTML.");
+        console.error("Erreur ID HTML");
         return;
     }
 
@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         fr: {
             anyone: "<h1>Bonjour, je suis Quentin Larue, étudiant en design et développement web, et je suis là pour rendre votre expérience en ligne plus agréable.</h1>",
-            recruiters: "<h1>Je suis étudiant en design et développement web. Passionné par la création d'expériences numériques fluides et engageantes, je me spécialise dans le design centré utilisateur et le développement efficace. J’ai hâte d’appliquer mes compétences en milieu professionnel et de contribuer efficacement à votre équipe.</h1>",
-            instructors: "<h1>Je vous remercie sincèrement pour votre guidance et votre soutien qui m'ont permis d'atteindre ce niveau. Votre enseignement a été précieux, et j’espère être à la hauteur des connaissances et compétences que vous m’avez transmises.</h1>"
+            recruiters: "<h1>Je suis étudiant en design et développement web. Passionné par la création d'expériences numériques fluides et engageantes, je me spécialise dans le design centré utilisateur et le développement efficace. J’ai hâte d’appliquer mes compétences en milieu professionnel et de contribuer concrètement à votre équipe.</h1>",
+            instructors: "<h1>Je vous remercie sincèrement pour vos enseignements et votre soutien qui m'ont permis d'atteindre ce niveau. Votre enseignement a été précieux, et j’espère être à la hauteur des connaissances et compétences que vous m’avez transmises.</h1>"
         },
         ja: {
             anyone: "<h1>こんにちは、Quentin Larue です。ウェブデザインと開発を学んでおり、あなたのウェブ体験をより快適にするためにここにいます。</h1>",
