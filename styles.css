@@ -785,6 +785,24 @@ footer {
         flex-direction: column;
         gap: 30px;
     }
+
+    .hero-container, .part-container{
+        width: 90%;
+        height: fit-content;
+    }
+
+    .hero-lower {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .end {
+        width: 90%;
+    }
+
+    footer {
+        width: 85%;
+    }
 }
 
 /* MOBILES : ≤ 768px */
@@ -797,12 +815,9 @@ footer {
     h6 { font-size: 1rem; }
     p, .button, .entry-role, .about-text p { font-size: 0.95rem; }
 
-    /* .header {
-        flex-direction: flex;
-        align-items: flex-start;
-        gap: 10px;
-        padding: 15px 20px;
-    } */
+    .header {
+        width: 90%;
+    }
 
     .nav-list {
         flex-direction: column;
@@ -855,11 +870,32 @@ footer {
         gap: 30px;
     }
 
-    /* .contact-picture-links {
-        flex-direction: column;
-        gap: 10px;
-    } */
+    .hero-container, .part-container{
+        width: 90%;
+        height: fit-content;
+    }
+
+    .hero-lower {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .end {
+        width: 90%;
+    }
+
+    footer {
+        width: 80%;
+    }
+
+    p, ul, .section-subheading {
+        word-break: break-word;
+        overflow-wrap: break-word;
+        max-width: 90%;
+        box-sizing: border-box;
+    }
 }
+
 
 /* TRÈS PETITS MOBILES : ≤ 480px */
 @media (max-width: 480px) {
