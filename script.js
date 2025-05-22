@@ -9,8 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-/*
+
     const lang = document.documentElement.lang || getLanguageFromPath();
+/*
     console.log("Langue détectée :", lang);
 */
 
