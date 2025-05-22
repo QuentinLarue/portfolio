@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-
+/*
     const lang = document.documentElement.lang || getLanguageFromPath();
     console.log("Langue détectée :", lang);
-
+*/
 
     const translations = {
         en: {
@@ -104,10 +104,10 @@ function changeLanguage() {
     window.location.href = selectedValue;
 }
 
-
+/*
 const burger = document.querySelector('.burger');
 const navList = document.querySelector('.nav-list');
 
 burger.addEventListener('click', () => {
   navList.classList.toggle('active');
-});
+});*/
